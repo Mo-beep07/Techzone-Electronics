@@ -1,0 +1,96 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Defines the character encoding and webpage compatibility settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Makes the webpage adjust to different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the title displayed in the browser tab -->
+    <title>Techzone Electronics:Contact page</title>
+
+    <!-- Links the external CSS stylesheet to style the webpage -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!-- Displays the website logo at the top of the page -->
+    <div class="header">
+        <img src="Images/Logo.png">
+    </div>
+
+    <!-- Creates the main navigation menu for moving between website pages -->
+    <div class="navbar"> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <!-- Creates a sidebar menu containing links to the main website pages -->
+    <div class="sidebar">
+        <ul>
+            <br>
+            <li><a href="index.html">Home</a></li><br>
+            <li><a href="products.html">Products</a></li><br>
+            <li><a href="offers.html">Offers</a></li><br>
+            <li><a href="about.html">About</a></li><br>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <!-- Contains the main contact page content -->
+    <div class="content">
+
+        <!-- Sets the contact page background image and its display properties -->
+        <body background="Images/Contact Background.jpg"  background-repeat="no-repeat" background-size="cover" background-position="inherit" background-attachment="fixed"></body>
+
+       <!-- Groups the contact form and applies its CSS styling -->
+       <div class="contactform">
+
+        <!-- Creates a form for visitors to enter their contact details and message -->
+        <form>
+
+            <!-- Groups the form fields and displays the Contact Us legend -->
+            <fieldset><legend>Contact Us</legend>
+
+                <!-- Collects the visitor's first name -->
+                <label for="fname" >First Name</label>  
+                <input type="text" id="fname" placeholder="Enter First Name" >
+                <br><br>
+
+                <!-- Collects the visitor's last name -->
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Enter Last Name">
+                <br><br>
+
+                <!-- Collects the visitor's email address using an email input -->
+                <label for="myemail">Email</label>
+                <input type="email" name="myemail" size="12" placeholder="Enter Email">
+                <br><br>
+
+                <!-- Provides a larger text area for the visitor to explain their enquiry -->
+                <label for="message">Enter Message</label><br>
+                <textarea cols="50" rows="15" name="message" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif "  placeholder="Reason for reaching out"></textarea>
+                <br><br>
+
+                <!-- Creates the submit button for the contact form -->
+                <button type="button">Submit</button>
+            </fieldset>
+        </form>
+       </div>
+    </div>
+
+    <!-- Displays the footer credits and scrolls them horizontally -->
+    <div class="footer">
+        <marquee scroll ="right">&copy; Designed by Ralpheal, Mohammed & Peace</marquee>
+    </div>
+</body>
+</html>
+```

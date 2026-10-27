@@ -1,0 +1,243 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Defines the character encoding and webpage compatibility settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Makes the webpage adapt to different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the title displayed in the browser tab -->
+    <title>Techzone Electronics:Offer page</title>
+
+    <!-- Links the external CSS stylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!-- Displays the website logo in the header -->
+    <div class="header">
+        <img src="Images/Logo.png">
+    </div>
+
+    <!-- Main navigation menu linking to the website's pages -->
+    <div class="navbar"> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <!-- Sidebar navigation menu for accessing the main website pages -->
+    <div class="sidebar">
+        <ul>
+            <br>
+            <li><a href="index.html">Home</a></li><br>
+            <li><a href="products.html">Products</a></li><br>
+            <li><a href="offers.html">Offers</a></li><br>
+            <li><a href="about.html">About</a></li><br>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+
+    <!-- Contains the search bar and all product offers -->
+    <div class="content">
+
+        <!-- Allows visitors to enter a keyword and search the available devices -->
+        <div class="searchbutton">
+            <input type="text" id="Electronics" placeholder="What are you looking for..?"></input>
+
+            <!-- Calls the Search() JavaScript function when clicked -->
+            <button type="button" onclick="Search()">🔎</button>
+        </div>
+
+        <!-- First row of products, containing smartphones -->
+        <div class="container1">
+
+            <!-- Each devices element contains a product image, specifications and offer price -->
+            <div class="devices">
+                <br><br>
+                <img src="Images/Product image iphone 14.jpg" alt="Iphone">
+                <p>Device Name = Iphone 14</p>
+                <p>RAM:4GB | ROM:128GB</p>
+                <p> Offer Price <strike>£450</strike> £400</p>
+            </div>
+
+            <div class="devices">
+                <br><br>
+                <img src="Images/Product images iphone 18.jpg" alt="Iphone">
+                <p>Device Name = Iphone 18</p>
+                <p>RAM:8GB | ROM:1TB</p>
+                <p> Offer Price <strike>£1399</strike> £1299</p>
+            </div>
+
+            <div class="devices">
+                <br><br>
+                <img src="Images/Product image samsun A35.jpg" alt="Samsungs">
+                <p>Device Name = Samsung A35</p>
+                <p>RAM:4GB | ROM:64GB</p>
+                <p> Offer Price <strike>£115</strike> £100</p>
+            </div>
+
+            <div class="devices">
+                <br><br>
+                <img src="Images/Product images iphone 6.jpg" alt="Iphone 6">
+                <p>Device Name = Iphone 6</p>
+                <p>RAM:4GB | ROM:128GB</p>
+                <p> Offer Price <strike>£60</strike> £40</p>
+            </div>
+
+            <div class="devices">
+                <br><br>
+                <img src="Images/Product images samsung galaxy z flip.jpg" alt="Samsungs">
+                <p>Device Name = Samsung Galaxy Z flip</p>
+                <p>RAM:8GB | ROM:1TB</p>
+                <p> Offer Price <strike>£900</strike> £870</p>
+            </div>
+
+            <div class="devices">
+                <br><br>
+                <img src="Images/product images samsung S25 Ultra.jpg" alt="Samsungs">
+                <p>Device Name = Samsung S25 Ultra</p>
+                <p>RAM:8GB | ROM:512GB</p>
+                <p> Offer Price <strike>£750</strike> £699</p>
+            </div>
+        </div>
+
+        <!-- Second row of products, containing laptops -->
+        <div class="container2">
+            <div class="devices">
+                <img src="Images/Product images Lenovo thinkpad L15.jpg" alt="Lenovos">
+                <p>Device Name = Lenovo thinkpad L15</p>
+                <p>RAM:8GB | ROM:512GB</p>
+                <p> Offer Price <strike>£400</strike> £350</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images HP omnibook 5.jpg" alt="HP">
+                <p>Device Name = HP omnibook 5</p>
+                <p>RAM:6GB | ROM:256GB</p>
+                <p> Offer Price <strike>£250</strike> £300</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Lenovo ThinkPad X260.jpg" alt="Lenovos">
+                <p>Device Name = Lenovo thinkpad X260</p>
+                <p>RAM:8GB | ROM:1TB</p>
+                <p> Offer Price <strike>£450</strike> £500</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Lenovo slim Pro 7 X.jpg" alt="Lenovos">
+                <p>Device Name = Lenovo slim Pro 7 X</p>
+                <p>RAM:8GB | ROM:256GB</p>
+                <p> Offer Price <strike>£450</strike> £400</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images HP probook 450 G6.jpg" alt="HP">
+                <p>Device Name = HP probook 450G6</p>
+                <p>RAM:6GB | ROM:256GB</p>
+                <p> Offer Price <strike>£450</strike> £550</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images HP 250 G7.jpg" alt="HP">
+                <p>Device Name = HP 250 G7</p>
+                <p>RAM:8GB | ROM:256GB</p>
+                <p> Offer Price <strike>£450</strike> £350</p>
+            </div>
+        </div>
+
+        <!-- Third row of products, containing gaming consoles -->
+        <div class="container3">
+            <div class="devices">
+                <img src="Images/Porduct images Sony concole PS1.jpg" alt="Consoles">
+                <p>Device Name = Sony Console</p>
+                <p>RAM:8GB | ROM:256GB</p>
+                <p> Offer Price <strike>£450</strike> £1000</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images Xbox series X.jpg" alt="Xbox">
+                <p>Device Name = Xbox Series X</p>
+                <p>RAM:8GB | ROM:1TB</p>
+                <p> Offer Price <strike>£400</strike> £370</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images Classic gaming console.jpg" alt="Consoles">
+                <p>Device Name = Old Gaming Console</p>
+                <p>RAM:4GB | ROM:32GB</p>
+                <p> Offer Price <strike>£130</strike> £100</p>
+            </div>
+            
+            <div class="devices">
+                <img src="Images/Product images Nintendo switch 2 console.jpg" alt="Nintendos">
+                <p>Device Name = Nintendo Switch 2 Console</p>
+                <p>RAM:12GB | ROM:128GB</p>
+                <p> Offer Price <strike>£270</strike> £250</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images Nintendo switch OLED.jpg" alt="Nintendos">
+                <p>Device Name = Nintendo Switch OLED</p>
+                <p>RAM:64GB | ROM:1TB</p>
+                <p> Offer Price <strike>£450</strike> £400</p>
+            </div>
+
+            <div class="devices">
+                <img src="Images/Product images Microsoft Xbos serires S.jpg" alt="Xbox">
+                <p>Device Name = Xbox Series S</p>
+                <p>RAM:16B | ROM:512GB</p>
+                <p> Offer Price <strike>£399</strike> £359</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer displaying the website designers' credits -->
+    <div class="footer">
+        <marquee scroll ="right">&copy; Designed by Ralpheal, Mohammed & Peace</marquee>
+        
+    </div>
+</body>
+
+<!-- JavaScript function that filters the products according to the search input -->
+<script>
+    // Function to search for devices based on the user's input
+    function Search(){
+
+        // Gets the search input and converts it to lowercase
+        const searchdata=document.getElementById('Electronics').value.toLowerCase();
+
+        // Selects all elements with the class "devices"
+        const device=document.querySelectorAll(' .devices');
+
+        // Loops through each device element
+        device.forEach(devices=>{
+
+            // Gets the text content of the device and converts it to lowercase
+            const text=devices.textContent.toLowerCase();
+
+            // Checks whether the device text contains the search input
+            if(text.includes(searchdata)){
+
+                // Displays the device if it matches the search
+                devices.style.display="block";
+
+            }else{
+
+                // Hides the device if it does not match the search
+                devices.style.display="none";
+            }
+        })
+    }
+</script>
+</html>
+```
